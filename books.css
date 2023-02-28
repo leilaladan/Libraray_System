@@ -1,0 +1,99 @@
+.Books{
+    margin-left: 20%;
+   
+}
+.Books h1{
+    margin-bottom: 20px;
+    font-size: 60px;
+    margin-right: 16px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.Books iconify-icon {
+    font-size: 45px;
+}
+.tab{
+    margin-left: 18%;
+    
+}
+table{
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    /* border-collapse: collapse; */
+    
+}
+th{
+    /* background-color: rgb(198, 198, 243); */
+    background-color: rgb(168, 81, 19);
+    padding: 20px;
+    font-size: 27px;
+
+}
+td{
+    font-size: 24px;
+  /* border-right: solid black 3px; */
+    padding: 10px;
+}
+tr:nth-child(odd){
+    
+    background-color: rgb(228, 128, 6);
+
+        box-shadow: 4px 2px 2px;
+}
+.bookbtn{
+    background-color: rgb(7, 197, 134);
+    color: white;
+    width: 200px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    /* padding: 15px; */
+}
+.bookbtn iconify-icon{
+    margin-top: 15PX;
+    font-size: 30px;
+
+}
+
+.btn{
+    margin-left: 30%;
+}
+.updatetebtn{
+    background-color: rgb(234, 152, 36);
+    font-size: 22px;
+    height: 40px;
+    width: 120px;
+    color: black;
+}
+.updatetebtn:hover{
+    background-color: rgb(41, 35, 151);
+}
+.Book{
+    height: 50px;
+    text-align: center;
+}
+.Book h1{
+    font-size: 60px;
+    margin-top: 50px;
+    padding-bottom: 70px;
+}
+.tabl{
+    margin-top: 10px;
+}
+.requestbtn{
+    background-color: cadetblue;
+}
+.icony{
+   /* background-color:red; */
+    /* width: 80px;
+    color: black; */
+    color: rgb(27, 33, 31);
+    font-size: 33px;
+}

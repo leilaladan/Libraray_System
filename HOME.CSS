@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    background-color: rgb(81, 113, 116);
+    height: 100px;
+    justify-content: space-evenly;
+   
+}
+.header h1{
+    /* background-color:rgb(78,29, 4); */
+   
+    padding-top: 10px;
+    /* padding-left: 30px; */
+    color: white;
+    padding-right: 15px;
+    font-size: 50px;
+}
+.icony{
+    padding-top: 10px;
+    color: white;
+    font-size: 50px;
+    margin-left: 30px;
+}
+/* .home{
+    padding-top: 50PX;
+    margin-top: 60px;
+    position: fixed;
+    background-color:rgb(220,190,135);
+    height: 50vh;
+    width: 18%;
+} */
+ul li{
+    padding: 20px;
+  
+    display: inline-block;
+}
+ul li a{
+    font-size: 35px;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+iconify-icon {
+    color: white;
+    font-size: 35px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.sawir img{
+    width: 100%;
+    /* position: absolute; */
+    /* height: 100%; */
+}

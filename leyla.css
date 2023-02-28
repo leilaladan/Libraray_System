@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    display: flex;
+    margin-right: 200px;
+    
+}
+.logo img{
+    width: 100px;
+    height: 80px;
+}
+.logotex{
+margin-top: 15px;
+}
+.logotex h2{
+    font-size: 45px;
+}
+span{
+    color: crimson;
+}
+.library{
+    /* position: fixed; */
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: chocolate;
+    height: 100px;
+    width: 100%;
+}
+
+ol li{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+}
+ol li a{
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+    margin: 10px;
+}
+ol li a:hover{
+    color: red;
+}
+.library button{
+    width: 190px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    color: black;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+/* .qoraal{
+    background-image: url("https://images.pexels.com/photos/2041540/pexels-photo-2041540.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+} */
+.qoraal{
+    height: 100px;
+    background-color: rgba(253, 217, 150, 0.72);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/2041540/pexels-photo-2041540.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: slider 9s infinite linear;
+    width: 100%;
+    height: 100vh;
+}
+.qoraal img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.qoraal-text h1{
+    margin-top: -580px;
+    position: relative;
+    font-size: 80px;
+    color:white;
+    text-align: center;
+   /* padding-top: 200px; */
+   font-family: 'Times New Roman', Times, serif;
+
+}
+.qoraal-text p{
+    position: relative;
+    font-size: 22px;
+    color:#fcfbf8;
+    text-align: center;
+   padding-top: 30px;
+   font-family: 'Times New Roman', Times, serif;
+   line-height: 30px;
+
+}
+.qoralbtn{
+    position: relative;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.qoralbtn button{
+    margin: 20px;
+    width: 200px;
+    height: 40px;
+    font-size: 22px;
+    border: none;
+    padding: 6px;
+}
+.qoralbtn button:hover{
+    background-color: rgb(168, 81, 19);
+    color: white;
+
+}
+a:hover{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+iconify-icon{
+    color:cornsilk ;
+    font-size: 40px;
+}
+.services {
+    margin-top: 300px;
+    justify-content: center;
+}
+.services h1{
+    text-align: center;
+    font-size: 40px;
+
+}
+.service{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    margin: 20px;
+}
+.ser1{
+    margin: 40px;
+}
+.services h1{
+    margin-bottom: 20px;
+}
+.service h3{
+    margin-top:70px ;
+    color: rgba(49, 46, 46, 0.934);
+
+}
+.ser2{
+    margin: 40px;
+}
+.ser3{
+    margin: 40px;
+}
+.service iconify-icon{
+    color: rgb(74, 172, 230);
+    font-size: 60px;
+   margin-left: 30px;
+   text-decoration: underline;
+}
+.service p{
+    color: rgb(130, 122, 122);
+    font-size: 16px;
+    margin-top: 6px;
+}
+.foot2 img{
+    width: 150px;
+    height: 100px;
+}
+.footer{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 300px;
+    background-color: rgba(10, 10, 9, 0.894);
+    height: 200px;
+}
+.footer h4{
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer p{
+    color: white;
+    margin-top: 7px;
+}
+ul li {
+    padding: 3px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    font-size: 18px;
+    margin-top: 7px;
+    padding: 10px;
+    margin: 9px;
+}
+input{
+    height:30px ;
+    margin-top: 10px;
+    padding-left: 7px;
+    background-color: rgba(10, 10, 9, 0.894);
+    border: solid gray;
+
+}

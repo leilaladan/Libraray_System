@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgba(164, 73, 8, 0.951); */
+
+
+}
+.us{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.About{
+    margin-right: 100px;
+    /* margin-top: 200px; */
+    text-align: center;
+}
+.About h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: chocolate;
+}
+.About p{
+    font-size: 22px;
+    padding: 10px;
+    line-height: 25px;
+}
+.swr img{
+    width: 600px;
+    height: 500px;
+    border-radius: 200px;
+}
